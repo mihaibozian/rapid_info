@@ -1,0 +1,10 @@
+sudo apt install docker
+docker (check the commands)
+systemctl enable docker
+systemctl start docker
+systemctl status docker (check if it's active)
+docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+(sudo) docker run -it ubuntu bash (create a container with image 'ubuntu')
+docker ps -a (to see all the containers, even the ones not working)
+docker ps (see al the running containers)
+docker rm id (of the container you want to delete)
